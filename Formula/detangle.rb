@@ -1,28 +1,28 @@
 class Detangle < Formula
   desc "Fast dependency analysis and architecture rules for JavaScript and TypeScript"
   homepage "https://github.com/debug-diary-1/detangle"
-  version "0.1.2"
+  version "0.1.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7b298e52ac1bf2350996b92eca1e57cd459ce8930802b9a42a19463ef0ab4d3d"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.3/detangle-0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "c39ba6ebdd7cf4e34be758647b61ed4d79f84d02f904e5e7d9c18994a0b14dcc"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "961c2932df5c4d3195df72e2f27d7f4f2167e8c2b12439ac19aee8a8a8dba560"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.3/detangle-0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "244be3a22b883e066b82975ec2089f085d6ee5e30b2a9d0dfc5d52481a3f4f48"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "063e2cec509a55778ea0bba5e9c73884bc1faf08584a0077d0819ca01e20e385"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.3/detangle-0.1.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "8528c20e971dc9e086adb88b655796df7bc827adaff3acff292d4f809b5e9f77"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d1c1110a0b56ea605b084d882cfe89290fa38131aaf627e6098fe5214b66109f"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.3/detangle-0.1.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2fd2fbd80bdf1f2d8928f6d7a0cda22176844e8210e56398eec99644aa1dd740"
     end
   end
 
