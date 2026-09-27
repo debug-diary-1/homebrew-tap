@@ -1,28 +1,28 @@
 class Detangle < Formula
   desc "Fast dependency analysis and architecture rules for JavaScript and TypeScript"
   homepage "https://github.com/debug-diary-1/detangle"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.1/detangle-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "d5d15841394d7b252f491629835e5f3ef5a7205b7f4c3fce0294150ab7818db6"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "7b298e52ac1bf2350996b92eca1e57cd459ce8930802b9a42a19463ef0ab4d3d"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.1/detangle-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "97a141a30d04d9e388ce0b4034a1b1acf4b2c2f3f0b04a48762ea4f9146b4fa0"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "961c2932df5c4d3195df72e2f27d7f4f2167e8c2b12439ac19aee8a8a8dba560"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.1/detangle-0.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9d47661cfcce189a093ba4b074b48f8008451a5243eeac740351f1275e9c1df2"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "063e2cec509a55778ea0bba5e9c73884bc1faf08584a0077d0819ca01e20e385"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.1/detangle-0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0fe7e528e8e34b53ff496456e73741d52fd6b812428a2a50f367cfd8d7289e61"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.1.2/detangle-0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d1c1110a0b56ea605b084d882cfe89290fa38131aaf627e6098fe5214b66109f"
     end
   end
 
