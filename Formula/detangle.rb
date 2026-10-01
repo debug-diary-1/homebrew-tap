@@ -1,28 +1,28 @@
 class Detangle < Formula
   desc "Fast dependency analysis and architecture rules for JavaScript and TypeScript"
   homepage "https://github.com/debug-diary-1/detangle"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.0/detangle-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4f8794270509db886b0aa02b89652ad453720ac30a8103d2e530dacf512efb10"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.1/detangle-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ab50c304526bf2bffd209732547cd51dd39e5c429a94a7353efa1dab50f92d56"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.0/detangle-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "feb9866013e2c5a200285a80ccd5a9655d8cc34f454154bc5a80269c1e0884e8"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.1/detangle-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "922b45540809797089af4886f0e2939eb9b010fa10c3ee39c15142c961080a7a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.0/detangle-0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1197e4df245be71750fe8fb133823ade918b9d5831f722363508e24e2a668e04"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.1/detangle-0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4de6ad64231fbe079d30c493aa5de417e4553e5bb091199323e5b4a4f10aa1bc"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.0/detangle-0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fc8c1dcafb85b65db0944fff9a18c780a75ebe129a3a1c1d05010c56959f1e5e"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.1/detangle-0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "74044cc49738fe78fce326752e9fd9761ce3bc5da031ab44ea95dcee752110c9"
     end
   end
 
