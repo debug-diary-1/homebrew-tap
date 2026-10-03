@@ -1,28 +1,28 @@
 class Detangle < Formula
   desc "Fast dependency analysis and architecture rules for JavaScript and TypeScript"
   homepage "https://github.com/debug-diary-1/detangle"
-  version "0.2.3"
+  version "0.2.4"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.3/detangle-0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "81ae068aed6e69fdf60f251fff9c053d9f87683e9ab3fc10595b112e9388b282"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.4/detangle-0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "4c298da2b531a5f4dbdc89d6d9d5f0c59efc0f890192035e32d6d078acc2cc3a"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.3/detangle-0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "b784929f8641c34c6d7bb247e9df8cd15adba976f4a5b3c83671d5d84f240f03"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.4/detangle-0.2.4-x86_64-apple-darwin.tar.gz"
+      sha256 "6a4026f6fdac5610b6a770a8f86d63230f7d1ff5dd57f92b6c5652760e9eabaf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.3/detangle-0.2.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6be1c4631181d975de556f5123f9efa2903130ccbf43e64c9e1e371ff8da8ab7"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.4/detangle-0.2.4-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0ff231b4540df893f8b6dbacd482893aca2db7c75426fde09665165e31d1da2b"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.3/detangle-0.2.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "afdc9dee6b0a660e5ac21672752b012bfef1019e91f4f72a68bf504bc9606660"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.4/detangle-0.2.4-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "731a746037f04d07c6ad1ed27c127ff5d39fed6ff9e3bc42997ef09b3712e511"
     end
   end
 
