@@ -1,28 +1,28 @@
 class Detangle < Formula
   desc "Fast dependency analysis and architecture rules for JavaScript and TypeScript"
   homepage "https://github.com/debug-diary-1/detangle"
-  version "0.2.5"
+  version "0.2.6"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.5/detangle-0.2.5-aarch64-apple-darwin.tar.gz"
-      sha256 "f5b75f77a91c8345baaa19cceb1f00ec091c260aec3e9b0d6c5dc0eab5528675"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.6/detangle-0.2.6-aarch64-apple-darwin.tar.gz"
+      sha256 "7e612334258c25273f5f4cc71dcf0841e532733ea618da5ead3632f43de423b1"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.5/detangle-0.2.5-x86_64-apple-darwin.tar.gz"
-      sha256 "4caf559eb3c476394ae975e038af2b8d8b0aeedf265d9f47c7fed64b50ad664c"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.6/detangle-0.2.6-x86_64-apple-darwin.tar.gz"
+      sha256 "487e0888643a0f717c946e64da52fb5c8243caeddfdfa677dd66e0d6b073097a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.5/detangle-0.2.5-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "90adff1cf934e29ed9b2618b76245529fac8756bafe4e86c2787a62f4eb32043"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.6/detangle-0.2.6-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4d67a10c1b44db6afe49b917ad799d7b1becd59037e99499b6973a4dad14392b"
     end
     on_intel do
-      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.5/detangle-0.2.5-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6c8ae957b24a9f333326625b27783f140ed790d88f63d56ad749a3892afb3553"
+      url "https://github.com/debug-diary-1/detangle/releases/download/v0.2.6/detangle-0.2.6-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a14f71d67cfd52c869cc0b4e734f04c9a06e9056515fbd5b67ebb0455662c4b2"
     end
   end
 
